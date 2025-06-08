@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  padding: 0;
+}
+
+main {
+  width: auto;
+  height: 508px;
+  padding: 160px 0;
+  margin-top: -20px;
+  background-repeat: no-repeat;
+  background-image: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg);
+}
+
+.concept {
+  width: 656px;
+  height: 432px;
+  background-color: white;
+  padding: 32px 16px;
+  border: 6px solid #000;
+  margin: 0 auto;
+  border-radius: 20px;
+  text-align: center;
+
+  .title {
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0 0 16px 0;
+  }
+
+  .message {
+    font-size: 22px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+  }
+
+  .feature {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    span {
+      background-color: yellow;
+      height: 50%;
+    }
+  }
+
+  .application {
+    display: block;
+    background: #009bcf;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+    max-width: 528px;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-decoration: none;
+    line-height: 1.8;
+    transition: all 0.5s ease;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .warning {
+    font-size: 12.8px;
+    line-height: 2.3;
+    margin-top: 16px;
+
+  }
+}
