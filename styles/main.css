@@ -3,12 +3,61 @@ body {
   padding: 0;
 }
 
+header {
+  height: 113px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+header .header-containar {
+  max-width: 1080px;
+  display: flex;
+  align-items: center;
+}
+header .header-containar .header-logo {
+  width: 160px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+header .header-containar .header-logo img {
+  display: flex;
+  align-items: center;
+}
+header .header-containar .navbar {
+  padding: 0 15px;
+}
+header .header-containar .navbar a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px;
+  margin-top: 34px;
+}
+header .header-containar .contact-button {
+  background-color: #F5B92F;
+  transition: all 0.5s;
+}
+header .header-containar .contact-button:hover {
+  background-color: #A1A1A1;
+}
+header .header-containar .contact-button a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 20px 12px 20px;
+}
+
 /* main */
 main {
   width: auto;
-  height: 508px;
   padding: 160px 0;
-  margin-top: -20px;
   background-repeat: no-repeat;
   background-image: url(https://wonderful-wife.net/wp-content/themes/agent_tcd033/img/w_code/head_bg.jpg);
 }
